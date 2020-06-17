@@ -1,0 +1,160 @@
+.blog {
+	margin-bottom: 0px;
+
+	@media (min-width: 768px) {
+		margin-bottom: 70px;
+	}
+
+	@media (min-width: 1280px) {
+		margin-bottom: 150px;
+	}
+}
+
+.blog-items {
+	
+
+	
+}
+
+.blog-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+
+	@media (min-width: 1280px) {
+		flex-direction: row;
+	}
+}
+
+.blog-item__wrapper {
+	display: flex;
+	flex-direction: column;
+	margin-top: 45px;
+	align-items: center;
+}
+
+.blog-img {
+	
+
+	@media (max-width: 540px) {
+		width: 100%;
+		
+	}
+}
+
+.blog-title {
+	/* Style for "Lipsum cou" */
+	margin-left: 0px;
+	height: 40px;
+	color: #000000;
+	font-family: 'Playfair Display', serif;
+	font-size: 25px;
+	font-weight: 400;
+	font-style: italic;
+	/* Text style for "Lipsum cou" */
+	letter-spacing: 0.33px;
+	margin-bottom: 33px;
+	
+	@media (min-width: 1280px) {
+		margin-left: 77px;
+		font-size: 40px;
+	}
+
+}
+
+.blog-text {
+	/* Style for "Lorem ipsu" */
+	width: 300px;
+	height: 79px;
+	color: #444444;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 31px;
+	/* Text style for "Lorem ipsu" */
+	letter-spacing: 0.06px;
+	margin-left: 0px;
+	margin-bottom: 56px;
+
+	@media (min-width: 1280px) {
+		width: 405px;
+		margin-left: 81px;
+		font-size: 16px;
+	}
+
+}
+
+.blog-btn {
+	/* Style for "Rectangle" */
+	width: 141px;
+	height: 52px;
+	border: 1px solid #e5e5e5;
+
+	/* Style for "Read More" */
+	
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 43px;
+	/* Text style for "R, ead Mor" */
+	letter-spacing: 0.06px;
+	margin-left: 0px;
+	text-align: center;
+
+	&:hover {
+		background-color: #333;
+		border: 1px solid transparent;	
+	}
+
+	 &:active {
+		background-color: #000;
+	}
+	
+
+
+
+	@media (min-width: 1280px) {
+		margin-left: 81px;
+	}
+
+	a {
+		color: #000000;
+		display: inline-block;
+		width: 141px;
+		height: 52px;
+		outline: none;
+		&:hover  {
+			color: #fff;
+			text-decoration: none;
+		}
+	}
+}
+
+.blog-item__reverse {
+	flex-direction: column;
+	margin-top: 80px;
+
+	@media (min-width: 1280px) {
+		flex-direction: row-reverse;
+		margin-top: 190px;
+	}
+
+}
+
+.blog-title__reverse {
+	margin-right: 0px;
+	margin-left: 0;
+
+	@media (min-width: 1280px) {
+		margin-right: 77px;
+	}
+}
+
+.blog-text__reverse {
+	margin-left: 0;
+}
+
+.blog-btn__reverse {
+	margin-left: 0;
+}

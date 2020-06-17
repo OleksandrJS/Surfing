@@ -1,0 +1,43 @@
+.feed {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.feed-btn {
+	transform: translateY(-41px);
+	width: 180px;
+	height: 56px;
+	border: 1px solid #41475b;
+	background-color: #ffffff;
+
+	/* Style for "Enroll Now" */
+	
+	color: #000000;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 2.8;
+	margin-bottom: 140px;
+
+	@media (max-width: 968px) {
+		margin-top: 50px;
+		margin-bottom: 0;
+		width: 100px;
+		height: 40px;
+		font-size: 14px;
+		line-height: 2.5;
+	}
+	
+	&:hover {
+		cursor: pointer;
+		text-decoration: none;
+		color: #fff;
+		border: 1px solid #fff;
+		background-color: #333;
+	}
+	&:active {
+		background-color: #000;
+	}
+}
